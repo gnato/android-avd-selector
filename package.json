@@ -1,0 +1,21 @@
+{
+  "name": "android-avd-selector",
+  "version": "1.0.0",
+  "description": "Android AVD selector",
+  "bin": {
+    "avd": "index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Mikołaj Gnaciński - gnStudio",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "commander": "^4.1.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.3",
+    "shelljs": "^0.8.3"
+  }
+}
